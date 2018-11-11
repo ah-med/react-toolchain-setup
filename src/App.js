@@ -1,10 +1,17 @@
-import React, { Component} from "react";
-import {hot} from "react-hot-loader";
-import "./App.css";
+import React, { Component } from 'react';
+import { hot } from 'react-hot-loader';
+import './App.css';
 
-class App extends Component{
-  render(){ 
-    return( 
+/**
+ * App component
+ */
+class App extends Component {
+  /**
+   * it renders the App component
+   * @returns {Component} The App component.
+   * */
+  render() {
+    return (
       <div className="App">
         <h1> Hello, World! </h1>
       </div>
